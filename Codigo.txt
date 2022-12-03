@@ -1,0 +1,31 @@
+cout<<"Hola mundo!";
+
+int a;
+int b=10;
+int i;
+
+cin>>a;
+
+if(a<b)
+	cout<<a<<" es menor a "<<b;
+else
+	cout<<a<<" es mayor a "<<b;
+for(i=0;i<5;i++)
+{
+	if(a>b)
+		a=a-1;
+	else
+	{
+		a=a+1;
+	}
+	cout<<i;
+}
+cout<<a;
+
+do{
+	a=a+1;
+	cout<<a;
+	do{
+		b=b+1;
+	}while(b<=1);
+}while(a<=50);
